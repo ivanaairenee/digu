@@ -1,0 +1,19 @@
+body {
+	background-color: #fafafa;
+	margin:0;
+}
+
+iframe {
+	margin: 1rem;
+}
+.container {
+	background-color: yellow;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 2rem;
+}
+
+
