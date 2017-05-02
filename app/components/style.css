@@ -1,19 +1,30 @@
 body {
 	background-color: #fafafa;
 	margin:0;
+	font-size: 1.5rem;
+	font-family: 'Assistant', sans-serif;
+	display: flex;
+	
 }
 
 iframe {
 	margin: 1rem;
+	height: 60%;
+	width: 80%;
 }
 .container {
-	background-color: yellow;
+	background-color: #fafafa;
 	display: flex;
 	flex-direction:column;
 	align-items: center;
 	justify-content: center;
 	padding: 0;
 	margin: 2rem;
+}
+
+.logoLanding {
+	height: 100%;
+	width: auto;
 }
 
 
