@@ -1,5 +1,48 @@
 .header {
 	background-color: lightblue;
 	width: 100%;
-	height: auto;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+
+	
 }
+
+.holder {
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.logo {
+	display: block;
+	height: 100%;
+	width: auto;
+	margin-left: 1rem;
+
+}
+
+.navbar {
+	width: 100%;
+	
+	overflow: hidden;
+	text-align: right;
+}
+
+.navbar button {
+	margin-right: 2rem;
+	font-size: 16px;
+	background: none;
+	border: 0px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.navbar button:hover {
+	color: black;
+	text-decoration-line: underline;
+}
+
