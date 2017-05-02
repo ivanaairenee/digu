@@ -1,5 +1,5 @@
 .header {
-	background-color: #fafafa;
+	background-color: #f4f4f4;
 	width: 100%;
 	height: 5rem;
 	display: flex;
@@ -8,6 +8,10 @@
 	position: relative;
 
 	
+}
+
+a {
+	margin: 1rem;
 }
 
 .holder {
@@ -36,7 +40,6 @@
 	font-size: 16px;
 	background: none;
 	border: 0px;
-	color: white;
 	text-decoration: none;
 	
 }

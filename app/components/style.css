@@ -1,5 +1,5 @@
 body {
-	background-color: #fafafa;
+	background-color: #f4f4f4;
 	margin:0;
 	font-size: 1.5rem;
 	font-family: 'Assistant', sans-serif;
@@ -11,10 +11,11 @@ iframe {
 	margin: 1rem;
 	height: 60%;
 	width: 80%;
+	border: 1px solid #eaeaea;
 }
 .container {
 	width: 100%;
-	background-color: #fafafa;
+	background-color: #f4f4f4;
 	display: flex;
 	flex-direction:column;
 	align-items: center;
@@ -23,9 +24,36 @@ iframe {
 	margin: 2rem;
 }
 
-.logoLanding {
+.content {
+	width: 100%;
 	height: 100%;
+	display: flex;
+	background: #fafafa;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.logoLanding {
+	height: 50%;
 	width: auto;
+}
+
+.buttonList {
+	height: 3rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 3rem;
+	width: auto;
+	background: #FB9B2A;
+	border-radius: 0.9rem;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 
