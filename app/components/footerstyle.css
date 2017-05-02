@@ -1,5 +1,15 @@
 .footer {
 	background-color: lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;`
 	width: 100%;
 	margin-bottom: 0;
+	padding: 1rem 10rem;
+	font-size: 14;
+	
+}
+
+.left {
+	font-size: 17;
 }
