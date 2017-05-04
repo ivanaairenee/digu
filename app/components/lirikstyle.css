@@ -1,0 +1,36 @@
+.list {
+	height: 100%;
+	width: 100%;
+	margin: 0rem;
+	padding: 0rem;
+}
+
+.list-contain{
+	height: 100%;
+	width: 100%;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.list-kiri {
+	width: 60%;
+	height: auto;
+	background: #FB9B2A;
+	flex-grow: 1; 
+	text-align: center;
+}
+
+.list-kanan {
+	background: #FB9B2A;
+	flex-grow: 1;
+	text-align: center;
+	width: 60%;
+	height: auto;
+}
+
+iframe {
+	margin-bottom: 1rem; 
+}
