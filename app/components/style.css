@@ -19,6 +19,22 @@ iframe {
 	border-radius: 1rem;
 	border: 1px solid #eaeaea;
 }
+
+.link {
+
+	color: #FB9B2A;
+
+}
+
+.textContainer {
+	position: relative;
+	width: 100%;
+	text-align: justify;
+	font-size: 1rem;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.25rem;
+}
+
 .container {
 	width: 100%;
 	background-color: #f4f4f4;
@@ -55,6 +71,10 @@ iframe {
 	text-align: center;
 }
 
+
+.photos {
+	position relative;
+}
 .profileContainer {
 	position: absolute;
 	left: -100%;
@@ -65,7 +85,7 @@ iframe {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	animation: slideDown 4s ease-in-out forwards;
+	animation: slideDown 3s ease-in-out forwards;
 }
 
 .contain {
